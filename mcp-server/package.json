@@ -1,0 +1,16 @@
+{
+  "name": "apex-vault-mcp",
+  "version": "1.0.0",
+  "description": "Obsidian vault MCP server for Claude Code / Claude Desktop",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
